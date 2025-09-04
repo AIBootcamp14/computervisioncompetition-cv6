@@ -306,3 +306,12 @@ public/code.tar.gz
 public/data/
 public/data.tar.gz
 public/requirements.txt
+
+# junyub
+junyub/code/baseline_code.ipynb
+junyub/data/
+junyub/junyub/
+junyub/requirements.txt
+junyub/results/
+
+
