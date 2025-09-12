@@ -1,93 +1,46 @@
 # Title (Please modify the title)
 ## Team
 
-| ![김시진](https://avatars.githubusercontent.com/u/156163982?v=4) | ![신준협](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이가은](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이건희](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이찬](https://avatars.githubusercontent.com/u/156163982?v=4) |
+| ![김시진](https://avatars.githubusercontent.com/u/46598332?v=4) | ![신준엽](https://avatars.githubusercontent.com/u/180160571?v=4) | ![이가은](https://avatars.githubusercontent.com/u/217889143?v=4) | ![이건희](https://avatars.githubusercontent.com/u/213379929?v=4) | ![이  찬](https://avatars.githubusercontent.com/u/100181857?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-|            [김시진](https://github.com/UpstageAILab)             |            [신준협](https://github.com/UpstageAILab)             |            [이가은](https://github.com/UpstageAILab)             |            [이건희](https://github.com/UpstageAILab)             |            [이찬](https://github.com/UpstageAILab)             |
-|                            팀장, Computer Vision Engineer                             |                            Computer Vision Engineer                             |                           Computer Vision Engineer                             |                           Computer Vision Engineer                             |                            Computer Vision Engineer                             |
+|            [김시진](https://github.com/kimsijin33)             |            [신준엽](https://github.com/Shin-junyeob)             |            [이가은](https://github.com/kkaeunii)             |            [이건희](https://github.com/GH-Lee33)             |            [이  찬](https://github.com/SKKULEE)             |
+|                             팀장, EDA / model 실험                             |                             EDA / model 실험                             |                            model 실험                             |                            model 실험                             |                            EDA, Augmentation                             |
 
-## 0. Overview
-### Environment
-- _Write Development environment_
+# 🖼️ Document Image Classification
 
-### Requirements
-- _Write Requirements_
+이 프로젝트는 문서 이미지 데이터를 분류하는 Computer Vision 모델을 학습하여, 예측 결과를 `.csv` 파일로 제출하는 것을 목표로 합니다.
 
-## 1. Competiton Info
+## 📂 Repository Structure
+- `main.ipynb` : 데이터 전처리, 모델 학습, 추론 파이프라인 코드
+- `submission.csv` : 최종 제출용 예측 결과 파일
+- `requirements.txt` : 실행 환경 설정을 위한 패키지 목록
 
-### Overview
-
-- _Write competition information_
-
-### Timeline
-- Computer Vision Competition
-
-- ex) January 10, 2024 - Start Date
-- ex) February 10, 2024 - Final submission deadline
-
-## 2. Components
-
-### Directory
-
-- _Insert your directory structure_
-
-e.g.
-```
-├── code
-│   ├── jupyter_notebooks
-│   │   └── model_train.ipynb
-│   └── train.py
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
+## ⚙️ Installation
+```bash
+pip install -r requirements.txt
 ```
 
-## 3. Data descrption
+## 🚀 How to Run
+1. Jupyter Notebook 실행:
+   ```bash
+   jupyter notebook main.ipynb
+   ```
+2. 학습 및 추론을 통해 예측 결과(`.csv`) 생성
 
-### Dataset overview
+## 📊 Example Output
+제출 파일(`submission.csv`) 예시:
+```csv
+ID,Target
+0001,3
+0002,7
+0003,12
+...
+```
 
-- _Explain using data_
+## 📌 Result
+- Public Leaderboard Score: **0.9579**
+- Private Leaderboard Score: **0.9518**
 
-### EDA
-
-- _Describe your EDA process and step-by-step conclusion_
-
-### Data Processing
-
-- _Describe data processing process (e.g. Data Labeling, Data Cleaning..)_
-
-## 4. Modeling
-
-### Model descrition
-
-- _Write model information and why your select this model_
-
-### Modeling Process
-
-- _Write model train and test process with capture_
-
-## 5. Result
-
-### Leader Board
-
-- _Insert Leader Board Capture_
-- _Write rank and score_
-
-### Presentation
-
-- _Insert your presentaion file(pdf) link_
-
-## etc
-
-### Meeting Log
-
-- _Insert your meeting log link like Notion or Google Docs_
-
-### Reference
-
-- _Insert related reference_
+## 🙌 Acknowledgement
+- Dataset: 제공된 대회 데이터셋
+- Frameworks: PyTorch, timm, Albumentations
