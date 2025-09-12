@@ -44,4 +44,3 @@ ID,Target
 ## 🙌 Acknowledgement
 - Dataset: 제공된 대회 데이터셋
 - Frameworks: PyTorch, timm, Albumentations
-
