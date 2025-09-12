@@ -20,6 +20,7 @@
 - _Write competition information_
 
 ### Timeline
+- Computer Vision Competition
 
 - ex) January 10, 2024 - Start Date
 - ex) February 10, 2024 - Final submission deadline
