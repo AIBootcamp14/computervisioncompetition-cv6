@@ -21,10 +21,9 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 How to Run
-1. Jupyter Notebook 실행:
-   ```bash
-   jupyter notebook main.ipynb
-   ```
+1. VScode 상에서 진행:
+- main.ipynb 파일을 셀단위로 실행
+
 2. 학습 및 추론을 통해 예측 결과(`.csv`) 생성
 
 ## 📊 Example Output
